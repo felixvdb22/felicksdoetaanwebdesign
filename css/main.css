@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+header {
+    padding: 30px;
+    background-color: burlywood;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 850px;
+}
+
+main {
+    padding: 30px;
+    min-height: calc(100vh - 100px - 80px);
+}
+
+footer {
+    padding: 30px 50px;
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer > .icons {
+    display: inline-block;
+}
+
+main > .container img {
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 30px;
+}
